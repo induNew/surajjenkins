@@ -35,7 +35,7 @@ public class TestActiTimeLogin {
 	public void loginTest() throws InterruptedException
 	
 	{
-		Reporter.log("suraj",true);
+		Reporter.log("surajNewCommit",true);
 		driver.findElement(By.name("username")).sendKeys("admin");
 		driver.findElement(By.name("pwd")).sendKeys("manager");
 		Thread.sleep(5000);
